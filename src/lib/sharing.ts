@@ -17,11 +17,19 @@ export function buildShareText(state: GameState): string {
   return [header, '', ...rows].join('\n')
 }
 
-export async function copyToClipboard(text: string): Promise<boolean> {
+export async function shareResult(text: string): Promise<'shared' | 'copied' | 'failed'> {
+  if (navigator.share) {
+    try {
+      await navigator.share({ text })
+      return 'shared'
+    } catch {
+      // user cancelled or share failed — fall through to clipboard
+    }
+  }
   try {
     await navigator.clipboard.writeText(text)
-    return true
+    return 'copied'
   } catch {
-    return false
+    return 'failed'
   }
 }

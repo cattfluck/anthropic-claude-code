@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Modal } from './Modal'
 import { Button } from '../ui/Button'
 import type { GameState, Resort } from '../../types'
-import { buildShareText, copyToClipboard } from '../../lib/sharing'
+import { buildShareText, shareResult } from '../../lib/sharing'
 
 interface WinModalProps {
   state: GameState
@@ -11,14 +11,14 @@ interface WinModalProps {
 }
 
 export function WinModal({ state, target, onClose }: WinModalProps) {
-  const [copied, setCopied] = useState(false)
+  const [label, setLabel] = useState('Share Result')
 
   async function handleShare() {
     const text = buildShareText(state)
-    const ok = await copyToClipboard(text)
-    if (ok) {
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2000)
+    const result = await shareResult(text)
+    if (result === 'copied') {
+      setLabel('✓ Copied!')
+      setTimeout(() => setLabel('Share Result'), 2000)
     }
   }
 
@@ -38,9 +38,7 @@ export function WinModal({ state, target, onClose }: WinModalProps) {
 
       <div className="flex gap-3">
         <Button variant="secondary" className="flex-1" onClick={onClose}>Continue</Button>
-        <Button className="flex-1" onClick={handleShare}>
-          {copied ? '✓ Copied!' : 'Share Result'}
-        </Button>
+        <Button className="flex-1" onClick={handleShare}>{label}</Button>
       </div>
     </Modal>
   )
