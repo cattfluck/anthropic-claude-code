@@ -38,6 +38,11 @@ export default function App() {
     }
   }
 
+  function handleReset() {
+    dispatch({ type: 'RESET' })
+    setModal(null)
+  }
+
   return (
     <div className="min-h-screen bg-mountain-dark font-body">
       <div className="max-w-lg mx-auto px-4 pb-12">
@@ -75,6 +80,15 @@ export default function App() {
 
           <GuessList guesses={state.guesses} unit={unit} />
         </main>
+
+        <footer className="mt-8 text-center">
+          <button
+            onClick={handleReset}
+            className="text-xs text-slate-600 hover:text-slate-400 transition-colors"
+          >
+            ↺ Reset today's puzzle
+          </button>
+        </footer>
       </div>
 
       {modal === 'help' && <HowToPlayModal onClose={() => setModal(null)} />}
