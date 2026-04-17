@@ -10,12 +10,13 @@ interface GuessRowProps {
 
 export function GuessRow({ guess, index, unit }: GuessRowProps) {
   return (
-    <div className="flex items-center gap-3 bg-slate-800 rounded-lg px-4 py-3">
-      <span className="text-slate-500 text-sm w-4 shrink-0">{index + 1}</span>
+    <div className="flex items-center gap-3 rounded-xl px-4 py-3" style={{
+      background: 'rgba(255,255,255,0.05)',
+      border: '1px solid rgba(255,255,255,0.08)',
+    }}>
+      <span className="text-white/30 text-sm w-4 shrink-0">{index + 1}</span>
       <span className="flex-1 font-medium text-white text-sm">{guess.resort.name}</span>
-      {!guess.isCorrect && (
-        <Compass bearingDeg={guess.bearingDeg} />
-      )}
+      {!guess.isCorrect && <Compass bearingDeg={guess.bearingDeg} />}
       <Badge distanceKm={guess.distanceKm} unit={unit} />
     </div>
   )

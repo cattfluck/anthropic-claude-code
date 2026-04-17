@@ -9,6 +9,8 @@ import { HintBoard } from './components/hints/HintBoard'
 import { GuessInput } from './components/guess/GuessInput'
 import { GuessList } from './components/guess/GuessList'
 import { ProgressBar } from './components/ui/ProgressBar'
+import { Snow } from './components/ui/Snow'
+import { MountainSilhouette } from './components/ui/MountainSilhouette'
 import { HowToPlayModal } from './components/modals/HowToPlayModal'
 import { WinModal } from './components/modals/WinModal'
 import { LossModal } from './components/modals/LossModal'
@@ -44,8 +46,11 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-mountain-dark font-body">
-      <div className="max-w-lg mx-auto px-4 pb-12">
+    <div className="relative min-h-screen font-body overflow-x-hidden">
+      <Snow />
+      <MountainSilhouette />
+
+      <div className="relative z-10 max-w-lg mx-auto px-4 pb-32">
         <Header
           puzzleNumber={puzzleNumber}
           unit={unit}
@@ -54,7 +59,7 @@ export default function App() {
           onOpenStats={() => setModal('stats')}
         />
 
-        <main className="mt-6 space-y-6">
+        <main className="mt-6 space-y-4">
           <ProgressBar revealed={state.hintsRevealed} total={5} />
           <HintBoard hints={hints} guessCount={state.guesses.length} />
 
@@ -71,7 +76,7 @@ export default function App() {
             <div className="text-center">
               <button
                 onClick={() => setModal('result')}
-                className="text-blue-400 underline text-sm hover:text-blue-300"
+                className="text-blue-300 underline text-sm hover:text-blue-200"
               >
                 View result
               </button>
@@ -81,10 +86,10 @@ export default function App() {
           <GuessList guesses={state.guesses} unit={unit} />
         </main>
 
-        <footer className="mt-8 text-center">
+        <footer className="mt-10 text-center">
           <button
             onClick={handleReset}
-            className="text-xs text-slate-600 hover:text-slate-400 transition-colors"
+            className="text-xs text-white/15 hover:text-white/40 transition-colors"
           >
             ↺ Reset today's puzzle
           </button>
