@@ -14,7 +14,7 @@ export function WinModal({ state, target, onClose }: WinModalProps) {
   const [label, setLabel] = useState('Share Result')
 
   async function handleShare() {
-    const text = buildShareText(state)
+    const text = buildShareText(state, target)
     const result = await shareResult(text)
     if (result === 'copied') {
       setLabel('✓ Copied!')

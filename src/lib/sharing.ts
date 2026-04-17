@@ -1,6 +1,6 @@
-import type { GameState } from '../types'
+import type { GameState, Resort } from '../types'
 
-export function buildShareText(state: GameState): string {
+export function buildShareText(state: GameState, target: Resort): string {
   const rows = state.guesses.map((g, i) => {
     const hintNum = i + 1
     if (g.isCorrect) return `Hint ${hintNum}: 🎿 Correct!`
@@ -12,7 +12,7 @@ export function buildShareText(state: GameState): string {
   const header =
     state.status === 'won'
       ? `⛷️ Skirdle #${state.puzzleNumber} — Solved in ${state.guesses.length}/5!`
-      : `⛷️ Skirdle #${state.puzzleNumber} — Missed (X/5)`
+      : `⛷️ Skirdle #${state.puzzleNumber} — Missed! It was ${target.name}`
 
   const url = window.location.href
 
