@@ -14,7 +14,9 @@ export function buildShareText(state: GameState): string {
       ? `⛷️ Skirdle #${state.puzzleNumber} — Solved in ${state.guesses.length}/5!`
       : `⛷️ Skirdle #${state.puzzleNumber} — Missed (X/5)`
 
-  return [header, '', ...rows].join('\n')
+  const url = window.location.href
+
+  return [header, '', ...rows, '', `Play at ${url}`].join('\n')
 }
 
 export async function shareResult(text: string): Promise<'shared' | 'copied' | 'failed'> {
