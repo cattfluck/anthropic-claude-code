@@ -28,7 +28,7 @@ export function WinModal({ state, target, onClose }: WinModalProps) {
         The resort was <span className="font-bold text-white">{target.name}</span>
       </p>
       <p className="text-center text-slate-400 text-xs mb-6">
-        {target.region}, {target.country} · {target.mountainRange}
+        {target.region}, {target.country}
       </p>
 
       <div className="bg-slate-800 rounded-xl p-4 text-center mb-6">

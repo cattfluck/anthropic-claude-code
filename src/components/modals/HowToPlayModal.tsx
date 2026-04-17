@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Modal } from './Modal'
 import { Button } from '../ui/Button'
-import { Mountain, Wine, Snowflake, MapPin, BarChart2, Lock, Camera, ChevronRight, ChevronLeft } from 'lucide-react'
+import { Mountain, Wine, MapPin, Lock, Sparkles, Link2, ChevronRight, ChevronLeft } from 'lucide-react'
 
 interface HowToPlayModalProps {
   onClose: () => void
@@ -13,16 +13,15 @@ const steps = [
     content: (
       <div className="space-y-4">
         <p className="text-slate-300 text-sm leading-relaxed">
-          A new mystery ski resort every day. Guess it from <span className="text-white font-semibold">6 hints</span> — each wrong guess unlocks the next clue.
+          A new mystery European ski resort every day. Guess it from <span className="text-white font-semibold">5 hints</span> — each wrong guess unlocks the next clue.
         </p>
         <div className="bg-slate-800 rounded-xl p-4 space-y-2">
           {[
-            { icon: Mountain, label: 'Hint 1', desc: 'Mountain range' },
+            { icon: Mountain, label: 'Hint 1', desc: 'Mountain system' },
             { icon: Wine,     label: 'Hint 2', desc: 'Après bars' },
-            { icon: Camera,   label: 'Hint 3', desc: 'Resort photo' },
-            { icon: Snowflake,label: 'Hint 4', desc: 'Famous runs' },
-            { icon: MapPin,   label: 'Hint 5', desc: 'Country' },
-            { icon: BarChart2,label: 'Hint 6', desc: 'Mountain stats' },
+            { icon: Sparkles, label: 'Hint 3', desc: 'Signature feature' },
+            { icon: Link2,    label: 'Hint 4', desc: 'Ski network' },
+            { icon: MapPin,   label: 'Hint 5', desc: 'Country & region' },
           ].map(({ icon: Icon, label, desc }) => (
             <div key={label} className="flex items-center gap-3 text-sm">
               <Icon size={15} className="text-blue-400 shrink-0" />
@@ -38,7 +37,7 @@ const steps = [
     title: 'Reading the hints',
     content: (
       <div className="space-y-3">
-        <p className="text-slate-300 text-sm">Hint 1 (mountain range) is always visible. Locked hints look like this:</p>
+        <p className="text-slate-300 text-sm">Hint 1 (mountain system) is always visible. Locked hints look like this:</p>
         <div className="rounded-xl border border-slate-600 bg-mountain-mid p-4 opacity-60 flex items-center gap-3">
           <Lock size={15} className="text-slate-500 shrink-0" />
           <div>
@@ -50,8 +49,8 @@ const steps = [
         <div className="rounded-xl border border-slate-500 bg-slate-700 p-4 flex items-start gap-3">
           <Mountain size={17} className="text-blue-400 shrink-0 mt-0.5" />
           <div>
-            <p className="text-xs font-semibold text-blue-400 uppercase tracking-wide">Mountain Range</p>
-            <p className="text-sm text-white font-medium mt-0.5">Rocky Mountains</p>
+            <p className="text-xs font-semibold text-blue-400 uppercase tracking-wide">Mountain System</p>
+            <p className="text-sm text-white font-medium mt-0.5">Alps</p>
           </div>
         </div>
       </div>
@@ -63,13 +62,13 @@ const steps = [
       <div className="space-y-3">
         <p className="text-slate-300 text-sm">Type a resort name in the search box. Filter by country to narrow it down.</p>
         <div className="bg-slate-800 rounded-xl p-3 flex gap-2 items-center">
-          <div className="bg-slate-700 border border-slate-600 rounded-lg px-3 py-1.5 text-xs text-slate-400">🌍 France</div>
+          <div className="bg-slate-700 border border-slate-600 rounded-lg px-3 py-1.5 text-xs text-slate-400">🇫🇷 France</div>
           <div className="flex-1 bg-slate-700 border border-slate-600 rounded-lg px-3 py-1.5 text-xs text-slate-400">Chamonix…</div>
         </div>
         <p className="text-slate-300 text-sm">After a wrong guess you'll see:</p>
         <div className="bg-slate-800 rounded-lg px-4 py-3 flex items-center gap-3">
           <span className="text-slate-500 text-sm w-4">1</span>
-          <span className="flex-1 text-white text-sm font-medium">Chamonix Mont-Blanc</span>
+          <span className="flex-1 text-white text-sm font-medium">Chamonix</span>
           <span className="text-lg" style={{ display: 'inline-block', transform: 'rotate(45deg)' }}>↑</span>
           <span className="bg-orange-400 text-white text-xs font-bold px-3 py-1 rounded-full">643 km</span>
         </div>
@@ -87,7 +86,7 @@ const steps = [
             { color: 'bg-green-500', label: 'Correct!', desc: "That's the resort 🎿" },
             { color: 'bg-yellow-400', label: '< 200 km', desc: 'Very close — same region' },
             { color: 'bg-orange-400', label: '< 1,000 km', desc: 'Same country or nearby' },
-            { color: 'bg-red-500', label: '1,000+ km', desc: 'Different part of the world' },
+            { color: 'bg-red-500', label: '1,000+ km', desc: 'Different part of Europe' },
           ].map(({ color, label, desc }) => (
             <div key={label} className="flex items-center gap-3">
               <span className={`${color} text-white text-xs font-bold px-3 py-1 rounded-full w-24 text-center shrink-0`}>{label}</span>
@@ -95,7 +94,7 @@ const steps = [
             </div>
           ))}
         </div>
-        <p className="text-slate-400 text-xs mt-2">You have <span className="text-white font-semibold">6 guesses</span> — one per hint. Good luck! 🏔️</p>
+        <p className="text-slate-400 text-xs mt-2">You have <span className="text-white font-semibold">5 guesses</span> — one per hint. Good luck! 🏔️</p>
       </div>
     ),
   },

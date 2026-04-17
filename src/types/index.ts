@@ -3,17 +3,7 @@ export interface Resort {
   name: string
   country: string
   region: string
-  mountainRange: string
   coordinates: { lat: number; lng: number }
-  verticalDropM: number
-  numberOfRuns: number
-  skiableAreaHa: number
-  annualSnowfallCm: number
-  yearOpened: number
-  famousRuns: string[]
-  apresBars: string[]
-  difficultyPct: { beginner: number; intermediate: number; expert: number }
-  nearestCity: string
 }
 
 export interface HintSlot {

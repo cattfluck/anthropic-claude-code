@@ -34,13 +34,13 @@ function reducer(state: GameState, action: GameAction): GameState {
 
       const newGuess = { resort, distanceKm, bearingDeg: bearing, isCorrect }
       const newGuesses = [...state.guesses, newGuess]
-      const nextHints = Math.min(state.hintsRevealed + 1, 6)
+      const nextHints = Math.min(state.hintsRevealed + 1, 5)
 
       if (isCorrect) {
         return { ...state, guesses: newGuesses, status: 'won' }
       }
-      if (newGuesses.length >= 6) {
-        return { ...state, guesses: newGuesses, hintsRevealed: 6, status: 'lost' }
+      if (newGuesses.length >= 5) {
+        return { ...state, guesses: newGuesses, hintsRevealed: 5, status: 'lost' }
       }
       return { ...state, guesses: newGuesses, hintsRevealed: nextHints }
     }
