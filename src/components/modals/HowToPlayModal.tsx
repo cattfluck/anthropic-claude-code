@@ -17,9 +17,9 @@ const steps = [
         </p>
         <div className="bg-slate-800 rounded-xl p-4 space-y-2">
           {[
-            { icon: Camera,   label: 'Hint 1', desc: 'Resort photo' },
-            { icon: Mountain, label: 'Hint 2', desc: 'Mountain range' },
-            { icon: Wine,     label: 'Hint 3', desc: 'Après bars' },
+            { icon: Mountain, label: 'Hint 1', desc: 'Mountain range' },
+            { icon: Wine,     label: 'Hint 2', desc: 'Après bars' },
+            { icon: Camera,   label: 'Hint 3', desc: 'Resort photo' },
             { icon: Snowflake,label: 'Hint 4', desc: 'Famous runs' },
             { icon: MapPin,   label: 'Hint 5', desc: 'Country' },
             { icon: BarChart2,label: 'Hint 6', desc: 'Mountain stats' },
@@ -38,7 +38,7 @@ const steps = [
     title: 'Reading the hints',
     content: (
       <div className="space-y-3">
-        <p className="text-slate-300 text-sm">Hint 1 (a photo) is always visible. Locked hints look like this:</p>
+        <p className="text-slate-300 text-sm">Hint 1 (mountain range) is always visible. Locked hints look like this:</p>
         <div className="rounded-xl border border-slate-600 bg-mountain-mid p-4 opacity-60 flex items-center gap-3">
           <Lock size={15} className="text-slate-500 shrink-0" />
           <div>

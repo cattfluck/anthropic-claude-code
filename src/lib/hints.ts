@@ -6,25 +6,25 @@ const photoTitles = resortPhotos as Record<string, string>
 export function buildHints(resort: Resort, revealedCount: number): HintSlot[] {
   const definitions: Omit<HintSlot, 'revealed'>[] = [
     {
-      id: 'photo',
-      order: 1,
-      label: 'Resort Photo',
-      icon: 'Camera',
-      value: photoTitles[resort.id] ?? '',
-    },
-    {
       id: 'mountain-range',
-      order: 2,
+      order: 1,
       label: 'Mountain Range',
       icon: 'Mountain',
       value: resort.mountainRange,
     },
     {
       id: 'apres-bars',
-      order: 3,
+      order: 2,
       label: 'Après Bars',
       icon: 'Wine',
       value: resort.apresBars.slice(0, 3).join(' · '),
+    },
+    {
+      id: 'photo',
+      order: 3,
+      label: 'Resort Photo',
+      icon: 'Camera',
+      value: photoTitles[resort.id] ?? '',
     },
     {
       id: 'famous-runs',

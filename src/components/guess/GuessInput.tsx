@@ -40,9 +40,9 @@ export function GuessInput({ allResorts, alreadyGuessedIds, onGuess, disabled }:
   }
 
   const inputStyle = {
-    background: 'rgba(255,255,255,0.07)',
-    border: '1px solid rgba(255,255,255,0.15)',
-    color: 'white',
+    background: 'rgba(255,255,255,0.8)',
+    border: '1px solid rgba(148,196,255,0.4)',
+    color: '#1a3a5c',
   }
 
   return (
@@ -50,15 +50,15 @@ export function GuessInput({ allResorts, alreadyGuessedIds, onGuess, disabled }:
       <div className="flex gap-2">
         <select
           value={country}
-          onChange={e => setCountry(e.target.value)}
+          onChange={e => { setCountry(e.target.value); setOpen(true) }}
           disabled={disabled}
-          className="rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400/50 disabled:opacity-50 text-white/80"
+          className="rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-sky-400/50 disabled:opacity-50"
           style={inputStyle}
           aria-label="Filter by country"
         >
-          <option value="" style={{ background: '#0d1b35' }}>🌍 All</option>
+          <option value="">🌍 All</option>
           {countries.map(c => (
-            <option key={c} value={c} style={{ background: '#0d1b35' }}>{c}</option>
+            <option key={c} value={c}>{c}</option>
           ))}
         </select>
 
@@ -73,7 +73,7 @@ export function GuessInput({ allResorts, alreadyGuessedIds, onGuess, disabled }:
             onBlur={() => setTimeout(() => setOpen(false), 150)}
             disabled={disabled}
             placeholder="Type a ski resort…"
-            className="w-full rounded-xl px-4 py-2.5 placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-blue-400/50 disabled:opacity-50"
+            className="w-full rounded-xl px-4 py-2.5 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-400/50 disabled:opacity-50"
             style={inputStyle}
             autoComplete="off"
             aria-label="Guess a ski resort"
@@ -84,8 +84,8 @@ export function GuessInput({ allResorts, alreadyGuessedIds, onGuess, disabled }:
           {open && (
             <ul
               ref={listRef}
-              className="absolute z-50 w-full mt-1 rounded-xl overflow-hidden shadow-2xl"
-              style={{ background: '#0d1b35', border: '1px solid rgba(255,255,255,0.15)' }}
+              className="absolute z-50 w-full mt-1 rounded-xl overflow-hidden shadow-xl max-h-64 overflow-y-auto"
+              style={{ background: 'rgba(255,255,255,0.97)', border: '1px solid rgba(148,196,255,0.4)', backdropFilter: 'blur(12px)' }}
               role="listbox"
             >
               {suggestions.map((resort, i) => (
@@ -96,10 +96,10 @@ export function GuessInput({ allResorts, alreadyGuessedIds, onGuess, disabled }:
                   onMouseDown={() => select(resort)}
                   onMouseEnter={() => setHighlighted(i)}
                   className="px-4 py-2.5 cursor-pointer text-sm transition-colors"
-                  style={{ background: i === highlighted ? 'rgba(96,165,250,0.2)' : 'transparent' }}
+                  style={{ background: i === highlighted ? 'rgba(125,191,255,0.25)' : 'transparent' }}
                 >
-                  <span className="font-medium text-white">{resort.name}</span>
-                  <span className="text-white/40 ml-2 text-xs">{resort.region}, {resort.country}</span>
+                  <span className="font-semibold text-slate-800">{resort.name}</span>
+                  <span className="text-slate-400 ml-2 text-xs">{resort.region}, {resort.country}</span>
                 </li>
               ))}
             </ul>
