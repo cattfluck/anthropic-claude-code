@@ -24,18 +24,18 @@ export function buildHints(resort: Resort, revealedCount: number): HintSlot[] {
       value: resort.famousRuns.slice(0, 3).join(' · '),
     },
     {
-      id: 'mountain-stats',
+      id: 'country',
       order: 4,
+      label: 'Country',
+      icon: 'MapPin',
+      value: resort.country,
+    },
+    {
+      id: 'mountain-stats',
+      order: 5,
       label: 'Mountain Stats',
       icon: 'BarChart2',
       value: `${resort.verticalDropM}m vertical · ${resort.numberOfRuns} runs · ${resort.skiableAreaHa} ha · ${resort.annualSnowfallCm} cm snow/yr`,
-    },
-    {
-      id: 'country-region',
-      order: 5,
-      label: 'Country & Region',
-      icon: 'MapPin',
-      value: `${resort.region}, ${resort.country}`,
     },
   ]
 

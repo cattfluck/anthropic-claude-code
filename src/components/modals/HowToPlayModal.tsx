@@ -17,8 +17,8 @@ export function HowToPlayModal({ onClose }: HowToPlayModalProps) {
           { icon: Mountain, label: 'Hint 1', desc: 'Mountain range' },
           { icon: Wine, label: 'Hint 2', desc: 'Après bars' },
           { icon: Snowflake, label: 'Hint 3', desc: 'Famous runs' },
-          { icon: BarChart2, label: 'Hint 4', desc: 'Mountain stats' },
-          { icon: MapPin, label: 'Hint 5', desc: 'Country & region' },
+          { icon: MapPin, label: 'Hint 4', desc: 'Country' },
+          { icon: BarChart2, label: 'Hint 5', desc: 'Mountain stats' },
         ].map(({ icon: Icon, label, desc }) => (
           <div key={label} className="flex items-center gap-3 text-sm">
             <Icon size={16} className="text-blue-400 shrink-0" />
