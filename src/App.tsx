@@ -35,7 +35,7 @@ export default function App() {
   function handleGuess(resort: Resort) {
     if (gameOver) return
     dispatch({ type: 'SUBMIT_GUESS', resort, target })
-    if (resort.id === target.id || state.guesses.length + 1 >= 5) {
+    if (resort.id === target.id || state.guesses.length + 1 >= 6) {
       setTimeout(() => setModal('result'), 600)
     }
   }
@@ -60,7 +60,7 @@ export default function App() {
         />
 
         <main className="mt-6 space-y-4">
-          <ProgressBar revealed={state.hintsRevealed} total={5} />
+          <ProgressBar revealed={state.hintsRevealed} total={6} />
           <HintBoard hints={hints} guessCount={state.guesses.length} />
 
           {!gameOver && (
