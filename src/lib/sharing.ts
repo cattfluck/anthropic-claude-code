@@ -2,21 +2,20 @@ import type { GameState, Resort } from '../types'
 
 export function buildShareText(state: GameState, target: Resort): string {
   const rows = state.guesses.map((g, i) => {
-    const hintNum = i + 1
-    if (g.isCorrect) return `Hint ${hintNum}: 🎿 Correct!`
+    if (g.isCorrect) return `⛷️ Hint ${i + 1}: nailed it!`
     const d = g.distanceKm
-    const emoji = d < 200 ? '🟨' : d < 1000 ? '🟧' : '🟥'
-    return `Hint ${hintNum}: ${emoji} ${Math.round(d).toLocaleString()} km away`
+    const distEmoji = d < 100 ? '🟩' : d < 300 ? '🟨' : d < 800 ? '🟧' : '🟥'
+    const missIcon = (['🎿', '🏔️', '🌨️', '⛷️', '🚡'] as const)[i] ?? '❄️'
+    return `${missIcon} Hint ${i + 1}: ${distEmoji} ${Math.round(d).toLocaleString()} km`
   })
 
-  const header =
-    state.status === 'won'
-      ? `⛷️ Skirdle #${state.puzzleNumber} — Solved in ${state.guesses.length}/5!`
-      : `⛷️ Skirdle #${state.puzzleNumber} — Missed! It was ${target.name}`
+  const guessCount = state.guesses.length
+  const header = state.status === 'won'
+    ? `🎿 Skirdle #${state.puzzleNumber} — ${guessCount}/5 hint${guessCount === 1 ? '' : 's'}!`
+    : `🏔️ Skirdle #${state.puzzleNumber} — so close! It was ${target.name}`
 
   const url = window.location.href
-
-  return [header, '', ...rows, '', `Play at ${url}`].join('\n')
+  return [header, '', ...rows, '', `❄️ Play at ${url}`].join('\n')
 }
 
 export async function shareResult(text: string): Promise<'shared' | 'copied' | 'failed'> {

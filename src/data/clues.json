@@ -1,618 +1,519 @@
 {
-  "val-disere": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar Jacques", "La Folie Douce", "Le Graal"],
-    "signatureHook": "Co-hosted the 1992 Winter Olympics downhill events",
-    "skiNetwork": "Espace Killy",
-    "geoTag": "France · Savoie"
-  },
-  "tignes": {
-    "mountainSystem": "Alps",
-    "apresBars": ["TC Pub", "Loop Bar", "Grizzly Bar"],
-    "signatureHook": "Year-round glacier skiing on the Grande Motte at 3,456m",
-    "skiNetwork": "Espace Killy",
-    "geoTag": "France · Savoie"
-  },
-  "courchevel": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Cocorico", "Le Kalico", "Les Caves"],
-    "signatureHook": "Private altiport runway at 2,000m — arrive by private jet",
-    "skiNetwork": "Trois Vallées",
-    "geoTag": "France · Savoie"
-  },
-  "meribel": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Rond-Point", "Ronnie's Bar", "Jack's Bar"],
-    "signatureHook": "Sits at the geographical heart of the Trois Vallées ski area",
-    "skiNetwork": "Trois Vallées",
-    "geoTag": "France · Savoie"
-  },
-  "les-menuires": {
-    "mountainSystem": "Alps",
-    "apresBars": ["L'Opéra", "Le Skichic", "Bar des Bruyères"],
-    "signatureHook": "Purpose-built in the 1960s — one of the original French ski stations",
-    "skiNetwork": "Trois Vallées",
-    "geoTag": "France · Savoie"
-  },
-  "saint-martin-de-belleville": {
-    "mountainSystem": "Alps",
-    "apresBars": ["La Bouitte", "L'Étoile des Neiges", "Le Bar du Jardin"],
-    "signatureHook": "Traditional Savoyard village preserved from ski development within the Trois Vallées",
-    "skiNetwork": "Trois Vallées",
-    "geoTag": "France · Savoie"
-  },
-  "val-thorens": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Brazero", "Malaysia Bar", "Le Frog"],
-    "signatureHook": "Highest ski resort in Europe at 2,300m altitude",
-    "skiNetwork": "Trois Vallées",
-    "geoTag": "France · Savoie"
-  },
   "les-arcs": {
     "mountainSystem": "Alps",
-    "apresBars": ["Le Chalet de Luigi", "L'Hévéa", "Col de Fresse Bar"],
+    "apresBars": [
+      "Le Bois de Lune",
+      "Bar 1950",
+      "Le Paradis"
+    ],
     "signatureHook": "Birthplace of speed skiing — world records broken on its steep faces",
     "skiNetwork": "Paradiski",
     "geoTag": "France · Savoie"
   },
+  "verbier": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Farinet",
+      "Le Rouge",
+      "Pub Mont Fort"
+    ],
+    "signatureHook": "Gateway to the 4 Vallées — 412km of pistes across four linked Swiss valleys",
+    "skiNetwork": "4 Vallées",
+    "geoTag": "Switzerland · Valais"
+  },
+  "val-thorens": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Le Brazero",
+      "Malaysia Bar",
+      "Frog & Rosbif"
+    ],
+    "signatureHook": "Highest ski resort in Europe at 2,300m altitude",
+    "skiNetwork": "Trois Vallées",
+    "geoTag": "France · Savoie"
+  },
+  "avoriaz": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Le Yeti Bar",
+      "Le Shooters",
+      "L'Igloo"
+    ],
+    "signatureHook": "Entirely car-free resort perched on dramatic 1,000m cliff faces above Morzine",
+    "skiNetwork": "Portes du Soleil",
+    "geoTag": "France · Haute-Savoie"
+  },
+  "kitzbuhel": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Londoner",
+      "Bar Hahnenkamm",
+      "Gasthof Eggerwirt"
+    ],
+    "signatureHook": "Home of the Hahnenkamm Downhill — the most feared race on the World Cup circuit",
+    "skiNetwork": "Independent",
+    "geoTag": "Austria · Tyrol"
+  },
+  "meribel": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Le Rond Point",
+      "Zig Zag Bar",
+      "La Taverne"
+    ],
+    "signatureHook": "Sits at the geographical heart of the Trois Vallées ski area",
+    "skiNetwork": "Trois Vallées",
+    "geoTag": "France · Savoie"
+  },
+  "lech": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Tannbergerhof",
+      "Archiv Bar",
+      "Hotel Krone Bar"
+    ],
+    "signatureHook": "Exclusive village and long-time favourite of European royalty and celebrities",
+    "skiNetwork": "Arlberg",
+    "geoTag": "Austria · Vorarlberg"
+  },
   "la-plagne": {
     "mountainSystem": "Alps",
-    "apresBars": ["Casa Mia", "Le Globe", "Le Montana Bar"],
+    "apresBars": [
+      "La Mine",
+      "Le Verre Luisant",
+      "Bar le Bécoin"
+    ],
     "signatureHook": "Hosted the 1992 Olympic bobsleigh and luge events — track still in use",
     "skiNetwork": "Paradiski",
     "geoTag": "France · Savoie"
   },
-  "peisey-vallandry": {
+  "alpe-dhuez": {
     "mountainSystem": "Alps",
-    "apresBars": ["Le Vanoise Express Bar", "Bar de la Forêt", "Le Bec Rouge"],
-    "signatureHook": "Home of the Vanoise Express — one of the world's largest cable cars linking two resorts",
-    "skiNetwork": "Paradiski",
+    "apresBars": [
+      "Le Signal",
+      "O'Brien's Irish Bar",
+      "Le Windsor"
+    ],
+    "signatureHook": "Famous for the 21 hairpin bends of the Tour de France cycling climb",
+    "skiNetwork": "Independent",
+    "geoTag": "France · Isère"
+  },
+  "zermatt": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Papperla Pub",
+      "Hexen Bar",
+      "Vernissage Bar"
+    ],
+    "signatureHook": "Car-free village beneath the Matterhorn — one of the world's most iconic mountain silhouettes",
+    "skiNetwork": "Independent",
+    "geoTag": "Switzerland · Valais"
+  },
+  "obertauern": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Gruber's Almbar",
+      "Lürzer Alm",
+      "Hochalm Bar"
+    ],
+    "signatureHook": "Guaranteed snow from November to May — unique bowl topography traps every snowfall",
+    "skiNetwork": "Independent",
+    "geoTag": "Austria · Salzburgerland"
+  },
+  "st-moritz": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Kulm Bar",
+      "Bobby's Pub",
+      "Bar Dracula"
+    ],
+    "signatureHook": "Only resort to have hosted the Winter Olympics twice — 1928 and 1948",
+    "skiNetwork": "Independent",
+    "geoTag": "Switzerland · Graubünden"
+  },
+  "sestriere": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Bar Gran Trun",
+      "Pub Sestriere",
+      "Bar Jouvenceaux"
+    ],
+    "signatureHook": "Italy's first purpose-built ski resort — constructed by Fiat founder Giovanni Agnelli in 1934",
+    "skiNetwork": "Independent",
+    "geoTag": "Italy · Piedmont"
+  },
+  "cervinia": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Bar Falcone",
+      "Pub Igloo",
+      "Bar Les Skieurs"
+    ],
+    "signatureHook": "Cross-border skiing into Zermatt on the shared Matterhorn glacier plateau",
+    "skiNetwork": "Independent",
+    "geoTag": "Italy · Aosta Valley"
+  },
+  "mayrhofen": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Ice Bar",
+      "Willy-Nilly Bar",
+      "Speak Easy"
+    ],
+    "signatureHook": "Home to Austria's steepest groomed piste — the near-vertical Harakiri run at 78°",
+    "skiNetwork": "Independent",
+    "geoTag": "Austria · Tyrol"
+  },
+  "solden": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Fire & Ice",
+      "Bierstadl",
+      "Stadium Bar"
+    ],
+    "signatureHook": "Featured as the villain's mountaintop lair in the James Bond film Spectre",
+    "skiNetwork": "Independent",
+    "geoTag": "Austria · Tyrol"
+  },
+  "serre-chevalier": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Le Frog",
+      "Bar du Bez",
+      "Café Briancon"
+    ],
+    "signatureHook": "Largest ski area in the Southern Alps — 13 linked villages near Briançon",
+    "skiNetwork": "Independent",
+    "geoTag": "France · Hautes-Alpes"
+  },
+  "les-gets": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "The Igloo Bar",
+      "Doudou's",
+      "Bar Loco"
+    ],
+    "signatureHook": "Home to one of the world's largest mechanical music box museums",
+    "skiNetwork": "Portes du Soleil",
+    "geoTag": "France · Haute-Savoie"
+  },
+  "tignes": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Loop Bar",
+      "Ice Bar",
+      "Alpaka Lodge"
+    ],
+    "signatureHook": "Year-round glacier skiing on the Grande Motte at 3,456m",
+    "skiNetwork": "Espace Killy",
     "geoTag": "France · Savoie"
   },
-  "la-rosiere": {
+  "crans-montana": {
     "mountainSystem": "Alps",
-    "apresBars": ["Le Bistrot", "La Chaumière", "Bar du Col du Mont"],
-    "signatureHook": "Cross-border skiing into Courmayeur, Italy via the Espace San Bernardo",
+    "apresBars": [
+      "Pub CM",
+      "Le Ranch",
+      "Bar No 1"
+    ],
+    "signatureHook": "Panoramic sunny plateau with unobstructed views of 10 four-thousand-metre Alpine peaks",
     "skiNetwork": "Independent",
-    "geoTag": "France · Savoie"
+    "geoTag": "Switzerland · Valais"
   },
   "chamonix": {
     "mountainSystem": "Alps",
-    "apresBars": ["MBC Micro Brasserie", "Elevation 1904", "Bar du Moulin"],
+    "apresBars": [
+      "Chambre Neuf",
+      "MBC Bar",
+      "Bar du Moulin"
+    ],
     "signatureHook": "Home of the legendary Vallée Blanche — 20km off-piste descent from 3,842m",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "megeve": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Les 5 Rues", "Le Chamois d'Or Bar", "Palo Alto"],
-    "signatureHook": "Founded by Baroness de Rothschild as France's answer to St. Moritz",
     "skiNetwork": "Independent",
     "geoTag": "France · Haute-Savoie"
   },
   "morzine": {
     "mountainSystem": "Alps",
-    "apresBars": ["Bar Robinson", "L'Atelier", "The Cavern Bar"],
+    "apresBars": [
+      "The Cavern",
+      "Bar Robinson",
+      "Le Clin d'Oeil"
+    ],
     "signatureHook": "Traditional Alpine village straddling the French-Swiss border in the Portes du Soleil",
     "skiNetwork": "Portes du Soleil",
     "geoTag": "France · Haute-Savoie"
   },
-  "avoriaz": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Shooters", "La Cabane Bamboo", "Place Centrale Bar"],
-    "signatureHook": "Entirely car-free resort perched on dramatic 1,000m cliff faces above Morzine",
-    "skiNetwork": "Portes du Soleil",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "les-gets": {
-    "mountainSystem": "Alps",
-    "apresBars": ["The Igloo Bar", "Doudou's", "Bar Loco"],
-    "signatureHook": "Home to one of the world's largest mechanical music box museums",
-    "skiNetwork": "Portes du Soleil",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "flaine": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le White Bar", "Les Grandes Platières Bar", "L'Aubergade"],
-    "signatureHook": "Brutalist resort designed by architect Marcel Breuer — open-air Picasso sculpture at its heart",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "samoens": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Morillon", "La Vieille Grange", "Bar de la Grenouillère"],
-    "signatureHook": "Medieval stonemasons' village with a UNESCO-listed alpine botanical garden",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "les-carroz": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Perce-Neige", "Bar du Centre", "La Table du Berger"],
-    "signatureHook": "Part of the Grand Massif — France's fourth-largest ski area with 265km of pistes",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "alpe-dhuez": {
-    "mountainSystem": "Alps",
-    "apresBars": ["O'Brien's Irish Bar", "L'Underground", "Smith & Winston"],
-    "signatureHook": "Famous for the 21 hairpin bends of the Tour de France cycling climb",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Isère"
-  },
-  "les-deux-alpes": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Pano Bar", "Le Brandon", "Bar de l'Ours"],
-    "signatureHook": "Shares Europe's largest skiable glacier at 3,600m with neighbouring Alpe d'Huez",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Isère"
-  },
-  "serre-chevalier": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Pub", "Bar du Soleil", "L'Araucaria"],
-    "signatureHook": "Largest ski area in the Southern Alps — 13 linked villages near Briançon",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Hautes-Alpes"
-  },
-  "la-clusaz": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Les Caves du Paccaly", "Le Pressoir", "Bar de l'Étale"],
-    "signatureHook": "Traditional Savoyard village just 30 minutes from Geneva — France's closest major resort to the city",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "le-grand-bornand": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Chalet de Marlène", "La Ferme du Bouchet", "Au Pied des Pistes"],
-    "signatureHook": "Famous for its Reblochon cheese — the Aravis Alpine farmhouses supply the village fromageries",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Haute-Savoie"
-  },
-  "valmorel": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Le Bettex", "Le Tremplin", "La Vieille Maison"],
-    "signatureHook": "Purpose-designed pedestrian village built entirely in traditional Savoyard architectural style",
-    "skiNetwork": "Independent",
-    "geoTag": "France · Savoie"
-  },
-  "st-anton": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Mooserwirt", "Krazy Kanguruh", "Heli Bar"],
-    "signatureHook": "Widely considered the birthplace of modern alpine skiing technique",
-    "skiNetwork": "Arlberg",
-    "geoTag": "Austria · Tyrol"
-  },
-  "lech": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Rüfikopf Keller", "Hotel Krone Bar", "Zur Kanne"],
-    "signatureHook": "Exclusive village and long-time favourite of European royalty and celebrities",
-    "skiNetwork": "Arlberg",
-    "geoTag": "Austria · Vorarlberg"
-  },
-  "zurs": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Flexenpass Bar", "Hotel Lorünser Bar", "Edelweiss Bar"],
-    "signatureHook": "Tiny exclusive hamlet linked to Lech and St. Anton — one of the smallest resorts in the Arlberg",
-    "skiNetwork": "Arlberg",
-    "geoTag": "Austria · Vorarlberg"
-  },
-  "ischgl": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Kuhstall", "Pacha", "Trofana Alm"],
-    "signatureHook": "Famous for massive free outdoor concerts headlined by global pop acts at season's end",
-    "skiNetwork": "Silvretta Arena",
-    "geoTag": "Austria · Tyrol"
-  },
-  "solden": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Ice Q Restaurant Bar", "Eugen's Obstlerhütte", "Bikerepublic Tent Bar"],
-    "signatureHook": "Featured as the villain's mountaintop lair in the James Bond film Spectre",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Tyrol"
-  },
-  "kitzbuhel": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Take Five Bar", "Londoner Bar", "Highways Bar"],
-    "signatureHook": "Home of the Hahnenkamm Downhill — the most feared race on the World Cup circuit",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Tyrol"
-  },
-  "mayrhofen": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Scotland Yard Bar", "Speak Easy Bar", "Arena Bar"],
-    "signatureHook": "Home to Austria's steepest groomed piste — the near-vertical Harakiri run at 78°",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Tyrol"
-  },
-  "saalbach": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bauer's Schi Alm", "Peter's Bar", "Bar Schlurf"],
-    "signatureHook": "Part of the Skicircus — a famous ski loop linking four valley villages without removing skis",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "hinterglemm": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Goasstall Bar", "Glemmer Bar", "Alm-Bar"],
-    "signatureHook": "Connected to Saalbach and Leogang forming a 270km Skicircus loop",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "zell-am-see": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Crazy Daisy Bar", "Steinerwirt", "Pinzgauer Stube"],
-    "signatureHook": "Rare combination of glacier skiing and a sparkling lakeside town in the same resort",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "kaprun": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Kitzsteinhorn Top Bar", "Der Stadl", "Alpin Bar"],
-    "signatureHook": "Year-round glacier skiing on the Kitzsteinhorn at 3,029m above Zell am See",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "obertauern": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Gruber's Bar", "Latschenhütte", "Alpenhof Bar"],
-    "signatureHook": "Guaranteed snow from November to May — unique bowl topography traps every snowfall",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "bad-gastein": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Felsenbar", "Café Weitmoser", "Silver Bullet Bar"],
-    "signatureHook": "Belle Époque spa town — a spectacular waterfall plunges through the centre of the village",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "ellmau": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Der Bär Hotel Bar", "Scheffauer Alm", "Weinstube"],
-    "signatureHook": "Gateway village to the SkiWelt — one of Austria's largest interconnected ski circuits",
-    "skiNetwork": "SkiWelt",
-    "geoTag": "Austria · Tyrol"
-  },
-  "soll": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Dorfpub", "Zinnkrug Bar", "Hexenbar"],
-    "signatureHook": "SkiWelt's central hub — once voted the world's number one ski resort by British skiers",
-    "skiNetwork": "SkiWelt",
-    "geoTag": "Austria · Tyrol"
-  },
-  "westendorf": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Gerry's Inn Bar", "Achenwirt Bar", "Berghütte"],
-    "signatureHook": "Southernmost village in the SkiWelt with sweeping views of the Kitzbühel Alps",
-    "skiNetwork": "SkiWelt",
-    "geoTag": "Austria · Tyrol"
-  },
-  "schladming": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Hohenhaus Tenne", "Hannes Stub'n", "Rossstall Bar"],
-    "signatureHook": "Regular host of the FIS Night Slalom — thousands of spectators line the floodlit course",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Styria"
-  },
-  "fieberbrunn": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Lärchfilzkogel Bar", "Bergbahn Hütte", "Brixenbachtal Bar"],
-    "signatureHook": "Freeride World Tour host — the legendary Buchensteinwand face draws elite big-mountain riders",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Tyrol"
-  },
-  "st-johann": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Alpenbad Bar", "Hotel Fischer Bar", "Post Hotel Bar"],
-    "signatureHook": "Sits in the shadow of the sheer Wilder Kaiser rock wall — one of Austria's iconic mountain backdrops",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Tyrol"
-  },
-  "flachau": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Aberg Alm", "Schwarzachhütte Bar", "Sport Hotel Royer Bar"],
-    "signatureHook": "Hometown of Hermann Maier — the Herminator, multiple Olympic gold medallist",
-    "skiNetwork": "Independent",
-    "geoTag": "Austria · Salzburgerland"
-  },
-  "zermatt": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Papperla Pub", "Elsie's Bar", "Vernissage Bar"],
-    "signatureHook": "Car-free village beneath the Matterhorn — one of the world's most iconic mountain silhouettes",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Valais"
-  },
-  "verbier": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Farm Club", "Fer à Cheval", "Le Rouge Bar"],
-    "signatureHook": "Gateway to the 4 Vallées — 412km of pistes across four linked Swiss valleys",
-    "skiNetwork": "4 Vallées",
-    "geoTag": "Switzerland · Valais"
-  },
-  "st-moritz": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Kulm Bar", "Bobby's Pub", "Devil's Place Whisky Bar"],
-    "signatureHook": "Only resort to have hosted the Winter Olympics twice — 1928 and 1948",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "davos": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Ex Bar", "Cabanna Club", "Bar Schneider"],
-    "signatureHook": "World's largest natural ice rink and annual home of the World Economic Forum",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "klosters": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Walserstube Bar", "Casa Antica", "Piano Bar"],
-    "signatureHook": "Long-time private retreat of the British Royal Family — Prince Charles skied here for decades",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "grindelwald": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Sports Bar First", "Bar Kreuz & Post", "Mescalero"],
-    "signatureHook": "Sits directly below the sheer north face of the Eiger — one of mountaineering's greatest challenges",
-    "skiNetwork": "Jungfrau Ski Region",
-    "geoTag": "Switzerland · Bern"
-  },
-  "wengen": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Tanne Bar", "Café Gruebi", "Bar Falken"],
-    "signatureHook": "Car-free village reached only by cog railway — perched above the Lauterbrunnen valley",
-    "skiNetwork": "Jungfrau Ski Region",
-    "geoTag": "Switzerland · Bern"
-  },
-  "murren": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Stägerstübli Bar", "Lauberhorn Bar", "Bar Alpenruh"],
-    "signatureHook": "Car-free clifftop village — the Schilthorn inspired Ian Fleming's Bond story On Her Majesty's Secret Service",
-    "skiNetwork": "Jungfrau Ski Region",
-    "geoTag": "Switzerland · Bern"
-  },
-  "saas-fee": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Popcorn Bar", "Metro Bar", "Nadelhorn Bar"],
-    "signatureHook": "Car-free glacier resort known as the Pearl of the Alps — surrounded by 13 four-thousanders",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Valais"
-  },
-  "laax": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Riders Palace Bar", "Crap Bar", "Ristis Bar"],
-    "signatureHook": "Home to the world's biggest halfpipe and Europe's largest indoor skatepark — snowboard mecca",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "crans-montana": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Amadeus Bar", "Le Pub", "Bar de l'Hôtel du Golf"],
-    "signatureHook": "Panoramic sunny plateau with unobstructed views of 10 four-thousand-metre Alpine peaks",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Valais"
-  },
-  "andermatt": {
-    "mountainSystem": "Alps",
-    "apresBars": ["The Nest Bar", "Bar Gotthard", "Bar Badus"],
-    "signatureHook": "Former Swiss Army training ground transformed into a luxury resort by Egyptian billionaire Samih Sawiris",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Uri"
-  },
-  "arosa": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar Tschuggen", "Hörnli Bar", "Bar Praetschli"],
-    "signatureHook": "Connected to Lenzerheide by a high-altitude gondola — forming Switzerland's largest ski area",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "lenzerheide": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Almbar", "Bar Valbella", "Bar Hahnensee"],
-    "signatureHook": "Regular FIS Alpine World Cup and biathlon World Cup host on its championship courses",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "engelberg": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar Yucatan", "Spindle Bar", "Hüsli Bar"],
-    "signatureHook": "Dominated by a 1,000-year-old Benedictine monastery — monks still live and work in the valley below",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Obwalden"
-  },
-  "nendaz": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar La Biolley", "Cave du Moulin", "Bar des Bergers"],
-    "signatureHook": "Highest-altitude village in the 4 Vallées — vast sun-drenched south-facing terraces",
-    "skiNetwork": "4 Vallées",
-    "geoTag": "Switzerland · Valais"
-  },
-  "veysonnaz": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar La Passerelle", "Alpage Bar", "Bar Piste Bleue"],
-    "signatureHook": "Hosts the prestigious 4 Vallées slalom race — a World Cup fixture on its signature piste",
-    "skiNetwork": "4 Vallées",
-    "geoTag": "Switzerland · Valais"
-  },
-  "flims": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar Caumasee", "Bar Isla", "Splash Bar"],
-    "signatureHook": "Built above the largest prehistoric rockslide in the Alps — a vast geological wonder beneath the pistes",
-    "skiNetwork": "Independent",
-    "geoTag": "Switzerland · Graubünden"
-  },
-  "cortina-dampezzo": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Lovat Bar", "Bar Miramonti", "Enoteca il Tana"],
-    "signatureHook": "Hosted the 1956 Winter Olympics and co-hosts the 2026 Winter Games",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · Veneto"
-  },
-  "val-gardena": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Rifugio Juac Bar", "Bar Comici", "Sporthotel Floralpina Bar"],
-    "signatureHook": "World Cup downhill and Super-G venue on the iconic Saslong course every December",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · South Tyrol"
-  },
-  "alta-badia": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Bar Lounge Munt de Pli", "Bar Col Alto", "Ciasa Posta Bar"],
-    "signatureHook": "Hosts the Gran Risa — a World Cup giant slalom run through stunning pink-tinged Dolomite scenery",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · South Tyrol"
-  },
-  "arabba": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Bar Porta Vescovo", "Alpenrose Bar", "Bar Rifugio Burz"],
-    "signatureHook": "Eastern gateway to the famous Sella Ronda circuit — 26km linking four Dolomite valleys",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · Veneto"
-  },
-  "corvara": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Bar La Tambra", "Hotel La Perla Bar", "Bar Plan da Tieja"],
-    "signatureHook": "Sits at the central crossroads of the Sella Ronda ski loop",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · South Tyrol"
-  },
-  "selva-di-val-gardena": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Bar Luisl", "Bar Plan de Gralba", "Ciampinoi Summit Bar"],
-    "signatureHook": "Traditional start point for the Sella Ronda clockwise circuit through the Dolomites",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · South Tyrol"
-  },
-  "ortisei": {
-    "mountainSystem": "Dolomites",
-    "apresBars": ["Bar Digon", "Bar Anna", "Alpe di Siusi Bar"],
-    "signatureHook": "Capital of Ladin woodcarving culture — the valley is a UNESCO creative city for crafts",
-    "skiNetwork": "Dolomiti Superski",
-    "geoTag": "Italy · South Tyrol"
-  },
-  "madonna-di-campiglio": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Des Alpes Bar", "Bar Stube", "Il Carpe Diem"],
-    "signatureHook": "Winter retreat of Emperor Franz Joseph I of Austria — favoured by Habsburg royalty",
-    "skiNetwork": "Independent",
-    "geoTag": "Italy · Trentino"
-  },
-  "livigno": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Mottolino Bar", "Stalet Bar", "Bar Tea del Pas"],
-    "signatureHook": "Duty-free enclave — the only Italian resort where no VAT applies to goods and fuel",
-    "skiNetwork": "Independent",
-    "geoTag": "Italy · Lombardy"
-  },
-  "cervinia": {
-    "mountainSystem": "Alps",
-    "apresBars": ["Bar Des Guides", "Igloo Bar", "Chalet Etoile Bar"],
-    "signatureHook": "Cross-border skiing into Zermatt on the shared Matterhorn glacier plateau",
-    "skiNetwork": "Independent",
-    "geoTag": "Italy · Aosta Valley"
-  },
   "bormio": {
     "mountainSystem": "Alps",
-    "apresBars": ["Bar Al Filo", "Kuerc Bar", "Baita dei Pini Bar"],
+    "apresBars": [
+      "Bar Funivia",
+      "Pub Al Filo",
+      "Centrale Bar"
+    ],
     "signatureHook": "Ancient Roman thermal spa town — regular World Cup downhill venue since 1985",
     "skiNetwork": "Independent",
     "geoTag": "Italy · Lombardy"
   },
-  "sestriere": {
+  "kaprun": {
     "mountainSystem": "Alps",
-    "apresBars": ["Bar Kandahar", "Sosta Caffè", "Pinot Bar"],
-    "signatureHook": "Italy's first purpose-built ski resort — constructed by Fiat founder Giovanni Agnelli in 1934",
+    "apresBars": [
+      "Maislalm",
+      "Zur Mühle",
+      "Pub Einfahrt"
+    ],
+    "signatureHook": "Year-round glacier skiing on the Kitzsteinhorn at 3,029m above Zell am See",
     "skiNetwork": "Independent",
-    "geoTag": "Italy · Piedmont"
+    "geoTag": "Austria · Salzburgerland"
   },
-  "baqueira-beret": {
-    "mountainSystem": "Pyrenees",
-    "apresBars": ["Los Continentales Bar", "El Refugio", "La Pleta Bar"],
-    "signatureHook": "Favourite resort of the Spanish Royal Family since King Juan Carlos I first skied here",
+  "saalbach": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Hinterhag Alm",
+      "Bauer's Schi Alm",
+      "Sporer Alm"
+    ],
+    "signatureHook": "Part of the Skicircus — a famous ski loop linking four valley villages without removing skis",
     "skiNetwork": "Independent",
-    "geoTag": "Spain · Catalonia"
+    "geoTag": "Austria · Salzburgerland"
   },
-  "grandvalira": {
-    "mountainSystem": "Pyrenees",
-    "apresBars": ["El Tobogan Bar", "Grau Roig Bar", "Bar del Camí"],
-    "signatureHook": "Largest ski area in the Pyrenees — spans Andorra's two main valleys",
+  "saas-fee": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Metropol Bar",
+      "Bar Imseng",
+      "Pub Fee"
+    ],
+    "signatureHook": "Car-free glacier resort known as the Pearl of the Alps — surrounded by 13 four-thousanders",
     "skiNetwork": "Independent",
-    "geoTag": "Andorra · Encamp"
+    "geoTag": "Switzerland · Valais"
   },
-  "pas-de-la-casa": {
-    "mountainSystem": "Pyrenees",
-    "apresBars": ["Paddy's Irish Pub", "Bar Cosmos", "Milady Bar"],
-    "signatureHook": "Duty-free border village — ski down from Andorra directly into France",
+  "les-deux-alpes": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Bar le Pano",
+      "Pub le Patou",
+      "L'Avalanche"
+    ],
+    "signatureHook": "Shares Europe's largest skiable glacier at 3,600m with neighbouring Alpe d'Huez",
     "skiNetwork": "Independent",
-    "geoTag": "Andorra · Encamp"
+    "geoTag": "France · Isère"
   },
-  "soldeu": {
-    "mountainSystem": "Pyrenees",
-    "apresBars": ["Fat Albert's Bar", "Villager Bar", "Aspen Nightclub"],
-    "signatureHook": "Hosted the 2023 FIS Alpine Ski World Championships — Andorra's biggest ever sporting event",
-    "skiNetwork": "Independent",
-    "geoTag": "Andorra · Canillo"
+  "ischgl": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Kuhstall",
+      "Trofana Alm",
+      "Pacha Club"
+    ],
+    "signatureHook": "Famous for massive free outdoor concerts headlined by global pop acts at season's end",
+    "skiNetwork": "Silvretta Arena",
+    "geoTag": "Austria · Tyrol"
   },
-  "arinsal": {
-    "mountainSystem": "Pyrenees",
-    "apresBars": ["Surf Bar", "Cisco's Bar", "Base Camp Bar"],
-    "signatureHook": "Small Andorran resort with a legendary party scene — a magnet for British and Irish skiers",
+  "zell-am-see": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Crazy Daisy",
+      "Bar Lebzelter",
+      "Pub Seewirt"
+    ],
+    "signatureHook": "Rare combination of glacier skiing and a sparkling lakeside town in the same resort",
     "skiNetwork": "Independent",
-    "geoTag": "Andorra · La Massana"
+    "geoTag": "Austria · Salzburgerland"
   },
-  "are": {
-    "mountainSystem": "Scandinavia",
-    "apresBars": ["Broken Bar", "Diplomat Bar", "Fjällgården Bar"],
-    "signatureHook": "Hosted the 2019 FIS Alpine Ski World Championships — the crown jewel of Scandinavian skiing",
-    "skiNetwork": "Independent",
-    "geoTag": "Sweden · Jämtland"
+  "zurs": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Lech Zürs Stuben",
+      "Kaminstube",
+      "Flexen Bar"
+    ],
+    "signatureHook": "Tiny exclusive hamlet linked to Lech and St. Anton — one of the smallest resorts in the Arlberg",
+    "skiNetwork": "Arlberg",
+    "geoTag": "Austria · Vorarlberg"
   },
-  "trysil": {
-    "mountainSystem": "Scandinavia",
-    "apresBars": ["Troll Pub", "Fjellstua Bar", "Skihytta"],
-    "signatureHook": "Norway's largest ski resort — spread across four valleys and five interconnected villages",
-    "skiNetwork": "Independent",
-    "geoTag": "Norway · Innlandet"
+  "alta-badia": {
+    "mountainSystem": "Dolomites",
+    "apresBars": [
+      "Stüa de Michil Bar",
+      "Bar Piz La Villa",
+      "Ütia de Börz"
+    ],
+    "signatureHook": "Hosts the Gran Risa — a World Cup giant slalom run through stunning pink-tinged Dolomite scenery",
+    "skiNetwork": "Dolomiti Superski",
+    "geoTag": "Italy · South Tyrol"
   },
-  "hemsedal": {
-    "mountainSystem": "Scandinavia",
-    "apresBars": ["Fyri Bar", "Peppermill Bar", "Garasjen Bar"],
-    "signatureHook": "Known as the Scandinavian Alps — steeper and more challenging terrain than any rival Nordic resort",
+  "laax": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Riders Palace Bar",
+      "Bar Crap Sogn Gion",
+      "The Lobby Bar"
+    ],
+    "signatureHook": "Home to the world's biggest halfpipe and Europe's largest indoor skatepark — snowboard mecca",
     "skiNetwork": "Independent",
-    "geoTag": "Norway · Viken"
+    "geoTag": "Switzerland · Graubünden"
   },
-  "geilo": {
-    "mountainSystem": "Scandinavia",
-    "apresBars": ["Hallingstuene Bar", "Highland Bar", "Bardøla Café Bar"],
-    "signatureHook": "Located on the dramatic Hardangervidda plateau — Norway's oldest established winter resort",
+  "schladming": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Hanglbar",
+      "Rocky's Bar",
+      "Pub No 1"
+    ],
+    "signatureHook": "Regular host of the FIS Night Slalom — thousands of spectators line the floodlit course",
     "skiNetwork": "Independent",
-    "geoTag": "Norway · Viken"
+    "geoTag": "Austria · Styria"
   },
-  "ruka": {
-    "mountainSystem": "Scandinavia",
-    "apresBars": ["Pinochio's Bar", "Ice Bar", "Gondoli Bar"],
-    "signatureHook": "Finnish Lapland resort where you can ski under the northern lights from October",
+  "bad-gastein": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Gatz Bar",
+      "Bar Haas",
+      "Silver Bullet Pub"
+    ],
+    "signatureHook": "Belle Époque spa town — a spectacular waterfall plunges through the centre of the village",
     "skiNetwork": "Independent",
-    "geoTag": "Finland · North Ostrobothnia"
+    "geoTag": "Austria · Salzburgerland"
   },
-  "levi": {
-    "mountainSystem": "Scandinavia",
-    "apresBars": ["K-Club Bar", "Hullu Poro Bar", "Summit Bar"],
-    "signatureHook": "Hosts the FIS Alpine Ski World Cup Slalom — Finland's most visited ski resort",
+  "la-clusaz": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "La Chaumière",
+      "Les Caves du Paccaly",
+      "Le Blue Night"
+    ],
+    "signatureHook": "Traditional Savoyard village just 30 minutes from Geneva — France's closest major resort to the city",
     "skiNetwork": "Independent",
-    "geoTag": "Finland · Lapland"
+    "geoTag": "France · Haute-Savoie"
   },
-  "gudauri": {
-    "mountainSystem": "Caucasus",
-    "apresBars": ["Lodge Bar", "Freerider Bar", "Panorama Bar"],
-    "signatureHook": "High-altitude Georgian resort at 2,196m — famed for heliskiing and uncrowded Soviet-era charm",
+  "megeve": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Lodge du Village",
+      "Le 5",
+      "Palo Alto"
+    ],
+    "signatureHook": "Founded by Baroness de Rothschild as France's answer to St. Moritz",
     "skiNetwork": "Independent",
-    "geoTag": "Georgia · Mtskheta-Mtianeti"
+    "geoTag": "France · Haute-Savoie"
   },
-  "bakuriani": {
-    "mountainSystem": "Caucasus",
-    "apresBars": ["Slope Bar", "Didveli Bar", "Kokhta Bar"],
-    "signatureHook": "Soviet-era resort reborn — Georgian alpine skiing has been practised here since 1936",
+  "grindelwald": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Bar Avocado",
+      "Espresso Bar Grindelwald",
+      "Pub Glacier"
+    ],
+    "signatureHook": "Sits directly below the sheer north face of the Eiger — one of mountaineering's greatest challenges",
+    "skiNetwork": "Jungfrau Ski Region",
+    "geoTag": "Switzerland · Bern"
+  },
+  "cortina-dampezzo": {
+    "mountainSystem": "Dolomites",
+    "apresBars": [
+      "Lovat Bar",
+      "Bar Sport Cristallo",
+      "Miky's Pub"
+    ],
+    "signatureHook": "Hosted the 1956 Winter Olympics and co-hosts the 2026 Winter Games",
+    "skiNetwork": "Dolomiti Superski",
+    "geoTag": "Italy · Veneto"
+  },
+  "livigno": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Miky's Pub",
+      "Tea Bar",
+      "Pub Prince"
+    ],
+    "signatureHook": "Duty-free enclave — the only Italian resort where no VAT applies to goods and fuel",
     "skiNetwork": "Independent",
-    "geoTag": "Georgia · Samtskhe-Javakheti"
+    "geoTag": "Italy · Lombardy"
+  },
+  "val-disere": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Bar Jacques",
+      "La Folie Douce",
+      "Le Graal"
+    ],
+    "signatureHook": "Co-hosted the 1992 Winter Olympics downhill events",
+    "skiNetwork": "Espace Killy",
+    "geoTag": "France · Savoie"
+  },
+  "val-gardena": {
+    "mountainSystem": "Dolomites",
+    "apresBars": [
+      "Luislkeller",
+      "Bar Piz Seteur",
+      "Pub Sciliar"
+    ],
+    "signatureHook": "World Cup downhill and Super-G venue on the iconic Saslong course every December",
+    "skiNetwork": "Dolomiti Superski",
+    "geoTag": "Italy · South Tyrol"
+  },
+  "courchevel": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "La Bergerie",
+      "Le Jump",
+      "Bar Le Tremplin"
+    ],
+    "signatureHook": "Private altiport runway at 2,000m — arrive by private jet",
+    "skiNetwork": "Trois Vallées",
+    "geoTag": "France · Savoie"
+  },
+  "andermatt": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "The Rusty Nail",
+      "Bar Sonne",
+      "Zur Alten Post"
+    ],
+    "signatureHook": "Former Swiss Army training ground transformed into a luxury resort by Egyptian billionaire Samih Sawiris",
+    "skiNetwork": "Independent",
+    "geoTag": "Switzerland · Uri"
+  },
+  "wengen": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Tanne Bar",
+      "Pub Falken",
+      "Bar Eiger"
+    ],
+    "signatureHook": "Car-free village reached only by cog railway — perched above the Lauterbrunnen valley",
+    "skiNetwork": "Jungfrau Ski Region",
+    "geoTag": "Switzerland · Bern"
+  },
+  "st-anton": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Mooserwirt",
+      "Krazy Kanguruh",
+      "Bar Cuba"
+    ],
+    "signatureHook": "Widely considered the birthplace of modern alpine skiing technique",
+    "skiNetwork": "Arlberg",
+    "geoTag": "Austria · Tyrol"
+  },
+  "davos": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Chalet Guarda Val",
+      "Bar Bolgenschanze",
+      "Cabana Club"
+    ],
+    "signatureHook": "World's largest natural ice rink and annual home of the World Economic Forum",
+    "skiNetwork": "Independent",
+    "geoTag": "Switzerland · Graubünden"
+  },
+  "madonna-di-campiglio": {
+    "mountainSystem": "Alps",
+    "apresBars": [
+      "Bar Suisse",
+      "Pub Stube",
+      "Il Caminetto"
+    ],
+    "signatureHook": "Winter retreat of Emperor Franz Joseph I of Austria — favoured by Habsburg royalty",
+    "skiNetwork": "Independent",
+    "geoTag": "Italy · Trentino"
   }
 }

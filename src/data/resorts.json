@@ -1,90 +1,472 @@
 [
-  { "id": "val-disere",                "name": "Val d'Isère",               "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.4483, "lng": 6.9800  } },
-  { "id": "tignes",                    "name": "Tignes",                    "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.4690, "lng": 6.9085  } },
-  { "id": "courchevel",                "name": "Courchevel",                "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.4150, "lng": 6.6340  } },
-  { "id": "meribel",                   "name": "Méribel",                   "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.3988, "lng": 6.5674  } },
-  { "id": "les-menuires",              "name": "Les Menuires",              "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.3250, "lng": 6.5380  } },
-  { "id": "saint-martin-de-belleville","name": "Saint-Martin-de-Belleville","country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.3782, "lng": 6.5064  } },
-  { "id": "val-thorens",               "name": "Val Thorens",               "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.2972, "lng": 6.5824  } },
-  { "id": "les-arcs",                  "name": "Les Arcs",                  "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.5680, "lng": 6.8250  } },
-  { "id": "la-plagne",                 "name": "La Plagne",                 "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.5115, "lng": 6.6780  } },
-  { "id": "peisey-vallandry",          "name": "Peisey-Vallandry",          "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.5436, "lng": 6.7760  } },
-  { "id": "la-rosiere",                "name": "La Rosière",                "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.6280, "lng": 6.8550  } },
-  { "id": "chamonix",                  "name": "Chamonix",                  "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 45.9237, "lng": 6.8694  } },
-  { "id": "megeve",                    "name": "Megève",                    "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 45.8566, "lng": 6.6170  } },
-  { "id": "morzine",                   "name": "Morzine",                   "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 46.1793, "lng": 6.7072  } },
-  { "id": "avoriaz",                   "name": "Avoriaz",                   "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 46.1940, "lng": 6.7720  } },
-  { "id": "les-gets",                  "name": "Les Gets",                  "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 46.1583, "lng": 6.6669  } },
-  { "id": "flaine",                    "name": "Flaine",                    "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 46.0083, "lng": 6.6823  } },
-  { "id": "samoens",                   "name": "Samoëns",                   "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 46.0795, "lng": 6.7183  } },
-  { "id": "les-carroz",                "name": "Les Carroz",                "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 46.0270, "lng": 6.6620  } },
-  { "id": "alpe-dhuez",                "name": "Alpe d'Huez",               "country": "France",      "region": "Isère",               "coordinates": { "lat": 45.0904, "lng": 6.0692  } },
-  { "id": "les-deux-alpes",            "name": "Les Deux Alpes",            "country": "France",      "region": "Isère",               "coordinates": { "lat": 45.0139, "lng": 6.1227  } },
-  { "id": "serre-chevalier",           "name": "Serre Chevalier",           "country": "France",      "region": "Hautes-Alpes",        "coordinates": { "lat": 44.9369, "lng": 6.5340  } },
-  { "id": "la-clusaz",                 "name": "La Clusaz",                 "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 45.9043, "lng": 6.4238  } },
-  { "id": "le-grand-bornand",          "name": "Le Grand Bornand",          "country": "France",      "region": "Haute-Savoie",        "coordinates": { "lat": 45.9366, "lng": 6.5017  } },
-  { "id": "valmorel",                  "name": "Valmorel",                  "country": "France",      "region": "Savoie",              "coordinates": { "lat": 45.4858, "lng": 6.4430  } },
-  { "id": "st-anton",                  "name": "St. Anton am Arlberg",      "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.1292, "lng": 10.2681 } },
-  { "id": "lech",                      "name": "Lech",                      "country": "Austria",     "region": "Vorarlberg",          "coordinates": { "lat": 47.2068, "lng": 10.1413 } },
-  { "id": "zurs",                      "name": "Zürs",                      "country": "Austria",     "region": "Vorarlberg",          "coordinates": { "lat": 47.1861, "lng": 10.1703 } },
-  { "id": "ischgl",                    "name": "Ischgl",                    "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.0127, "lng": 10.2920 } },
-  { "id": "solden",                    "name": "Sölden",                    "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 46.9717, "lng": 11.0027 } },
-  { "id": "kitzbuhel",                 "name": "Kitzbühel",                 "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.4469, "lng": 12.3913 } },
-  { "id": "mayrhofen",                 "name": "Mayrhofen",                 "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.1687, "lng": 11.8685 } },
-  { "id": "saalbach",                  "name": "Saalbach",                  "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.3908, "lng": 12.6347 } },
-  { "id": "hinterglemm",               "name": "Hinterglemm",               "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.3978, "lng": 12.5870 } },
-  { "id": "zell-am-see",               "name": "Zell am See",               "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.3241, "lng": 12.7996 } },
-  { "id": "kaprun",                    "name": "Kaprun",                    "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.2712, "lng": 12.7632 } },
-  { "id": "obertauern",                "name": "Obertauern",                "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.2530, "lng": 13.5680 } },
-  { "id": "bad-gastein",               "name": "Bad Gastein",               "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.1140, "lng": 13.1348 } },
-  { "id": "ellmau",                    "name": "Ellmau",                    "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.5165, "lng": 12.2986 } },
-  { "id": "soll",                      "name": "Söll",                      "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.5052, "lng": 12.1979 } },
-  { "id": "westendorf",                "name": "Westendorf",                "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.4406, "lng": 12.2075 } },
-  { "id": "schladming",                "name": "Schladming",                "country": "Austria",     "region": "Styria",              "coordinates": { "lat": 47.3915, "lng": 13.6882 } },
-  { "id": "fieberbrunn",               "name": "Fieberbrunn",               "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.4789, "lng": 12.5538 } },
-  { "id": "st-johann",                 "name": "St. Johann in Tirol",       "country": "Austria",     "region": "Tyrol",               "coordinates": { "lat": 47.5226, "lng": 12.4238 } },
-  { "id": "flachau",                   "name": "Flachau",                   "country": "Austria",     "region": "Salzburgerland",      "coordinates": { "lat": 47.3449, "lng": 13.3858 } },
-  { "id": "zermatt",                   "name": "Zermatt",                   "country": "Switzerland", "region": "Valais",              "coordinates": { "lat": 46.0207, "lng": 7.7491  } },
-  { "id": "verbier",                   "name": "Verbier",                   "country": "Switzerland", "region": "Valais",              "coordinates": { "lat": 46.0966, "lng": 7.2278  } },
-  { "id": "st-moritz",                 "name": "St. Moritz",                "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.4976, "lng": 9.8437  } },
-  { "id": "davos",                     "name": "Davos",                     "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.8009, "lng": 9.8378  } },
-  { "id": "klosters",                  "name": "Klosters",                  "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.8863, "lng": 9.8789  } },
-  { "id": "grindelwald",               "name": "Grindelwald",               "country": "Switzerland", "region": "Bern",                "coordinates": { "lat": 46.6238, "lng": 8.0413  } },
-  { "id": "wengen",                    "name": "Wengen",                    "country": "Switzerland", "region": "Bern",                "coordinates": { "lat": 46.6085, "lng": 7.9200  } },
-  { "id": "murren",                    "name": "Mürren",                    "country": "Switzerland", "region": "Bern",                "coordinates": { "lat": 46.5593, "lng": 7.8924  } },
-  { "id": "saas-fee",                  "name": "Saas-Fee",                  "country": "Switzerland", "region": "Valais",              "coordinates": { "lat": 46.1038, "lng": 7.9290  } },
-  { "id": "laax",                      "name": "Laax",                      "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.8111, "lng": 9.2595  } },
-  { "id": "crans-montana",             "name": "Crans-Montana",             "country": "Switzerland", "region": "Valais",              "coordinates": { "lat": 46.3127, "lng": 7.4782  } },
-  { "id": "andermatt",                 "name": "Andermatt",                 "country": "Switzerland", "region": "Uri",                 "coordinates": { "lat": 46.6333, "lng": 8.5942  } },
-  { "id": "arosa",                     "name": "Arosa",                     "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.7783, "lng": 9.6760  } },
-  { "id": "lenzerheide",               "name": "Lenzerheide",               "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.7283, "lng": 9.5565  } },
-  { "id": "engelberg",                 "name": "Engelberg",                 "country": "Switzerland", "region": "Obwalden",            "coordinates": { "lat": 46.8210, "lng": 8.4076  } },
-  { "id": "nendaz",                    "name": "Nendaz",                    "country": "Switzerland", "region": "Valais",              "coordinates": { "lat": 46.1857, "lng": 7.3090  } },
-  { "id": "veysonnaz",                 "name": "Veysonnaz",                 "country": "Switzerland", "region": "Valais",              "coordinates": { "lat": 46.1704, "lng": 7.3464  } },
-  { "id": "flims",                     "name": "Flims",                     "country": "Switzerland", "region": "Graubünden",          "coordinates": { "lat": 46.8291, "lng": 9.2825  } },
-  { "id": "cortina-dampezzo",          "name": "Cortina d'Ampezzo",         "country": "Italy",       "region": "Veneto",              "coordinates": { "lat": 46.5404, "lng": 12.1357 } },
-  { "id": "val-gardena",               "name": "Val Gardena",               "country": "Italy",       "region": "South Tyrol",         "coordinates": { "lat": 46.5523, "lng": 11.7793 } },
-  { "id": "alta-badia",                "name": "Alta Badia",                "country": "Italy",       "region": "South Tyrol",         "coordinates": { "lat": 46.5994, "lng": 11.9202 } },
-  { "id": "arabba",                    "name": "Arabba",                    "country": "Italy",       "region": "Veneto",              "coordinates": { "lat": 46.4990, "lng": 11.8723 } },
-  { "id": "corvara",                   "name": "Corvara",                   "country": "Italy",       "region": "South Tyrol",         "coordinates": { "lat": 46.5495, "lng": 11.9257 } },
-  { "id": "selva-di-val-gardena",      "name": "Selva di Val Gardena",      "country": "Italy",       "region": "South Tyrol",         "coordinates": { "lat": 46.5584, "lng": 11.7663 } },
-  { "id": "ortisei",                   "name": "Ortisei",                   "country": "Italy",       "region": "South Tyrol",         "coordinates": { "lat": 46.5755, "lng": 11.6732 } },
-  { "id": "madonna-di-campiglio",      "name": "Madonna di Campiglio",      "country": "Italy",       "region": "Trentino",            "coordinates": { "lat": 46.2275, "lng": 10.8251 } },
-  { "id": "livigno",                   "name": "Livigno",                   "country": "Italy",       "region": "Lombardy",            "coordinates": { "lat": 46.5370, "lng": 10.1363 } },
-  { "id": "cervinia",                  "name": "Cervinia",                  "country": "Italy",       "region": "Aosta Valley",        "coordinates": { "lat": 45.9363, "lng": 7.6255  } },
-  { "id": "bormio",                    "name": "Bormio",                    "country": "Italy",       "region": "Lombardy",            "coordinates": { "lat": 46.4700, "lng": 10.3762 } },
-  { "id": "sestriere",                 "name": "Sestriere",                 "country": "Italy",       "region": "Piedmont",            "coordinates": { "lat": 44.9593, "lng": 6.8767  } },
-  { "id": "baqueira-beret",            "name": "Baqueira-Beret",            "country": "Spain",       "region": "Catalonia",           "coordinates": { "lat": 42.6879, "lng": 0.9352  } },
-  { "id": "grandvalira",               "name": "Grandvalira",               "country": "Andorra",     "region": "Encamp",              "coordinates": { "lat": 42.5454, "lng": 1.7103  } },
-  { "id": "pas-de-la-casa",            "name": "Pas de la Casa",            "country": "Andorra",     "region": "Encamp",              "coordinates": { "lat": 42.5440, "lng": 1.7338  } },
-  { "id": "soldeu",                    "name": "Soldeu",                    "country": "Andorra",     "region": "Canillo",             "coordinates": { "lat": 42.5698, "lng": 1.6692  } },
-  { "id": "arinsal",                   "name": "Arinsal",                   "country": "Andorra",     "region": "La Massana",          "coordinates": { "lat": 42.5712, "lng": 1.4847  } },
-  { "id": "are",                       "name": "Åre",                       "country": "Sweden",      "region": "Jämtland",            "coordinates": { "lat": 63.3991, "lng": 13.0785 } },
-  { "id": "trysil",                    "name": "Trysil",                    "country": "Norway",      "region": "Innlandet",           "coordinates": { "lat": 61.3116, "lng": 12.2588 } },
-  { "id": "hemsedal",                  "name": "Hemsedal",                  "country": "Norway",      "region": "Viken",               "coordinates": { "lat": 60.8635, "lng": 8.5664  } },
-  { "id": "geilo",                     "name": "Geilo",                     "country": "Norway",      "region": "Viken",               "coordinates": { "lat": 60.5327, "lng": 8.2085  } },
-  { "id": "ruka",                      "name": "Ruka",                      "country": "Finland",     "region": "North Ostrobothnia",  "coordinates": { "lat": 66.1678, "lng": 29.1589 } },
-  { "id": "levi",                      "name": "Levi",                      "country": "Finland",     "region": "Lapland",             "coordinates": { "lat": 67.7975, "lng": 24.8298 } },
-  { "id": "gudauri",                   "name": "Gudauri",                   "country": "Georgia",     "region": "Mtskheta-Mtianeti",   "coordinates": { "lat": 42.4745, "lng": 44.4798 } },
-  { "id": "bakuriani",                 "name": "Bakuriani",                 "country": "Georgia",     "region": "Samtskhe-Javakheti",  "coordinates": { "lat": 41.7500, "lng": 43.5288 } }
+  {
+    "id": "val-disere",
+    "name": "Val d'Isère",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.4483,
+      "lng": 6.98
+    }
+  },
+  {
+    "id": "tignes",
+    "name": "Tignes",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.469,
+      "lng": 6.9085
+    }
+  },
+  {
+    "id": "courchevel",
+    "name": "Courchevel",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.415,
+      "lng": 6.634
+    }
+  },
+  {
+    "id": "meribel",
+    "name": "Méribel",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.3988,
+      "lng": 6.5674
+    }
+  },
+  {
+    "id": "val-thorens",
+    "name": "Val Thorens",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.2972,
+      "lng": 6.5824
+    }
+  },
+  {
+    "id": "les-arcs",
+    "name": "Les Arcs",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.568,
+      "lng": 6.825
+    }
+  },
+  {
+    "id": "la-plagne",
+    "name": "La Plagne",
+    "country": "France",
+    "region": "Savoie",
+    "coordinates": {
+      "lat": 45.5115,
+      "lng": 6.678
+    }
+  },
+  {
+    "id": "chamonix",
+    "name": "Chamonix",
+    "country": "France",
+    "region": "Haute-Savoie",
+    "coordinates": {
+      "lat": 45.9237,
+      "lng": 6.8694
+    }
+  },
+  {
+    "id": "megeve",
+    "name": "Megève",
+    "country": "France",
+    "region": "Haute-Savoie",
+    "coordinates": {
+      "lat": 45.8566,
+      "lng": 6.617
+    }
+  },
+  {
+    "id": "morzine",
+    "name": "Morzine",
+    "country": "France",
+    "region": "Haute-Savoie",
+    "coordinates": {
+      "lat": 46.1793,
+      "lng": 6.7072
+    }
+  },
+  {
+    "id": "avoriaz",
+    "name": "Avoriaz",
+    "country": "France",
+    "region": "Haute-Savoie",
+    "coordinates": {
+      "lat": 46.194,
+      "lng": 6.772
+    }
+  },
+  {
+    "id": "les-gets",
+    "name": "Les Gets",
+    "country": "France",
+    "region": "Haute-Savoie",
+    "coordinates": {
+      "lat": 46.1583,
+      "lng": 6.6669
+    }
+  },
+  {
+    "id": "alpe-dhuez",
+    "name": "Alpe d'Huez",
+    "country": "France",
+    "region": "Isère",
+    "coordinates": {
+      "lat": 45.0904,
+      "lng": 6.0692
+    }
+  },
+  {
+    "id": "les-deux-alpes",
+    "name": "Les Deux Alpes",
+    "country": "France",
+    "region": "Isère",
+    "coordinates": {
+      "lat": 45.0139,
+      "lng": 6.1227
+    }
+  },
+  {
+    "id": "serre-chevalier",
+    "name": "Serre Chevalier",
+    "country": "France",
+    "region": "Hautes-Alpes",
+    "coordinates": {
+      "lat": 44.9369,
+      "lng": 6.534
+    }
+  },
+  {
+    "id": "la-clusaz",
+    "name": "La Clusaz",
+    "country": "France",
+    "region": "Haute-Savoie",
+    "coordinates": {
+      "lat": 45.9043,
+      "lng": 6.4238
+    }
+  },
+  {
+    "id": "st-anton",
+    "name": "St. Anton am Arlberg",
+    "country": "Austria",
+    "region": "Tyrol",
+    "coordinates": {
+      "lat": 47.1292,
+      "lng": 10.2681
+    }
+  },
+  {
+    "id": "lech",
+    "name": "Lech",
+    "country": "Austria",
+    "region": "Vorarlberg",
+    "coordinates": {
+      "lat": 47.2068,
+      "lng": 10.1413
+    }
+  },
+  {
+    "id": "zurs",
+    "name": "Zürs",
+    "country": "Austria",
+    "region": "Vorarlberg",
+    "coordinates": {
+      "lat": 47.1861,
+      "lng": 10.1703
+    }
+  },
+  {
+    "id": "ischgl",
+    "name": "Ischgl",
+    "country": "Austria",
+    "region": "Tyrol",
+    "coordinates": {
+      "lat": 47.0127,
+      "lng": 10.292
+    }
+  },
+  {
+    "id": "solden",
+    "name": "Sölden",
+    "country": "Austria",
+    "region": "Tyrol",
+    "coordinates": {
+      "lat": 46.9717,
+      "lng": 11.0027
+    }
+  },
+  {
+    "id": "kitzbuhel",
+    "name": "Kitzbühel",
+    "country": "Austria",
+    "region": "Tyrol",
+    "coordinates": {
+      "lat": 47.4469,
+      "lng": 12.3913
+    }
+  },
+  {
+    "id": "mayrhofen",
+    "name": "Mayrhofen",
+    "country": "Austria",
+    "region": "Tyrol",
+    "coordinates": {
+      "lat": 47.1687,
+      "lng": 11.8685
+    }
+  },
+  {
+    "id": "saalbach",
+    "name": "Saalbach",
+    "country": "Austria",
+    "region": "Salzburgerland",
+    "coordinates": {
+      "lat": 47.3908,
+      "lng": 12.6347
+    }
+  },
+  {
+    "id": "zell-am-see",
+    "name": "Zell am See",
+    "country": "Austria",
+    "region": "Salzburgerland",
+    "coordinates": {
+      "lat": 47.3241,
+      "lng": 12.7996
+    }
+  },
+  {
+    "id": "kaprun",
+    "name": "Kaprun",
+    "country": "Austria",
+    "region": "Salzburgerland",
+    "coordinates": {
+      "lat": 47.2712,
+      "lng": 12.7632
+    }
+  },
+  {
+    "id": "obertauern",
+    "name": "Obertauern",
+    "country": "Austria",
+    "region": "Salzburgerland",
+    "coordinates": {
+      "lat": 47.253,
+      "lng": 13.568
+    }
+  },
+  {
+    "id": "bad-gastein",
+    "name": "Bad Gastein",
+    "country": "Austria",
+    "region": "Salzburgerland",
+    "coordinates": {
+      "lat": 47.114,
+      "lng": 13.1348
+    }
+  },
+  {
+    "id": "schladming",
+    "name": "Schladming",
+    "country": "Austria",
+    "region": "Styria",
+    "coordinates": {
+      "lat": 47.3915,
+      "lng": 13.6882
+    }
+  },
+  {
+    "id": "zermatt",
+    "name": "Zermatt",
+    "country": "Switzerland",
+    "region": "Valais",
+    "coordinates": {
+      "lat": 46.0207,
+      "lng": 7.7491
+    }
+  },
+  {
+    "id": "verbier",
+    "name": "Verbier",
+    "country": "Switzerland",
+    "region": "Valais",
+    "coordinates": {
+      "lat": 46.0966,
+      "lng": 7.2278
+    }
+  },
+  {
+    "id": "st-moritz",
+    "name": "St. Moritz",
+    "country": "Switzerland",
+    "region": "Graubünden",
+    "coordinates": {
+      "lat": 46.4976,
+      "lng": 9.8437
+    }
+  },
+  {
+    "id": "davos",
+    "name": "Davos",
+    "country": "Switzerland",
+    "region": "Graubünden",
+    "coordinates": {
+      "lat": 46.8009,
+      "lng": 9.8378
+    }
+  },
+  {
+    "id": "grindelwald",
+    "name": "Grindelwald",
+    "country": "Switzerland",
+    "region": "Bern",
+    "coordinates": {
+      "lat": 46.6238,
+      "lng": 8.0413
+    }
+  },
+  {
+    "id": "wengen",
+    "name": "Wengen",
+    "country": "Switzerland",
+    "region": "Bern",
+    "coordinates": {
+      "lat": 46.6085,
+      "lng": 7.92
+    }
+  },
+  {
+    "id": "saas-fee",
+    "name": "Saas-Fee",
+    "country": "Switzerland",
+    "region": "Valais",
+    "coordinates": {
+      "lat": 46.1038,
+      "lng": 7.929
+    }
+  },
+  {
+    "id": "laax",
+    "name": "Laax",
+    "country": "Switzerland",
+    "region": "Graubünden",
+    "coordinates": {
+      "lat": 46.8111,
+      "lng": 9.2595
+    }
+  },
+  {
+    "id": "crans-montana",
+    "name": "Crans-Montana",
+    "country": "Switzerland",
+    "region": "Valais",
+    "coordinates": {
+      "lat": 46.3127,
+      "lng": 7.4782
+    }
+  },
+  {
+    "id": "andermatt",
+    "name": "Andermatt",
+    "country": "Switzerland",
+    "region": "Uri",
+    "coordinates": {
+      "lat": 46.6333,
+      "lng": 8.5942
+    }
+  },
+  {
+    "id": "cortina-dampezzo",
+    "name": "Cortina d'Ampezzo",
+    "country": "Italy",
+    "region": "Veneto",
+    "coordinates": {
+      "lat": 46.5404,
+      "lng": 12.1357
+    }
+  },
+  {
+    "id": "val-gardena",
+    "name": "Val Gardena",
+    "country": "Italy",
+    "region": "South Tyrol",
+    "coordinates": {
+      "lat": 46.5523,
+      "lng": 11.7793
+    }
+  },
+  {
+    "id": "alta-badia",
+    "name": "Alta Badia",
+    "country": "Italy",
+    "region": "South Tyrol",
+    "coordinates": {
+      "lat": 46.5994,
+      "lng": 11.9202
+    }
+  },
+  {
+    "id": "madonna-di-campiglio",
+    "name": "Madonna di Campiglio",
+    "country": "Italy",
+    "region": "Trentino",
+    "coordinates": {
+      "lat": 46.2275,
+      "lng": 10.8251
+    }
+  },
+  {
+    "id": "livigno",
+    "name": "Livigno",
+    "country": "Italy",
+    "region": "Lombardy",
+    "coordinates": {
+      "lat": 46.537,
+      "lng": 10.1363
+    }
+  },
+  {
+    "id": "cervinia",
+    "name": "Cervinia",
+    "country": "Italy",
+    "region": "Aosta Valley",
+    "coordinates": {
+      "lat": 45.9363,
+      "lng": 7.6255
+    }
+  },
+  {
+    "id": "bormio",
+    "name": "Bormio",
+    "country": "Italy",
+    "region": "Lombardy",
+    "coordinates": {
+      "lat": 46.47,
+      "lng": 10.3762
+    }
+  },
+  {
+    "id": "sestriere",
+    "name": "Sestriere",
+    "country": "Italy",
+    "region": "Piedmont",
+    "coordinates": {
+      "lat": 44.9593,
+      "lng": 6.8767
+    }
+  }
 ]

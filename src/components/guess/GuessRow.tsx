@@ -10,7 +10,7 @@ interface GuessRowProps {
 
 export function GuessRow({ guess, index, unit }: GuessRowProps) {
   return (
-    <div className="flex items-center gap-3 rounded-xl px-4 py-3" style={{
+    <div className="flex items-center gap-3 rounded-xl px-4 py-3 animate-fade-slide-in" style={{
       background: 'rgba(255,255,255,0.65)',
       border: '1px solid rgba(148,196,255,0.3)',
     }}>

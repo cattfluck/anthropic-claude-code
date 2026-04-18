@@ -11,7 +11,7 @@ export function GuessList({ guesses, unit }: GuessListProps) {
   return (
     <div className="space-y-2">
       {guesses.map((g, i) => (
-        <GuessRow key={i} guess={g} index={i} unit={unit} />
+        <GuessRow key={g.resort.id} guess={g} index={i} unit={unit} />
       ))}
     </div>
   )

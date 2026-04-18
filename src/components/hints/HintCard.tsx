@@ -29,7 +29,7 @@ export function HintCard({ hint, guessCount }: HintCardProps) {
   }
 
   return (
-    <div className="hint-card-revealed">
+    <div className="hint-card-revealed animate-fade-slide-in">
       <div className="flex items-center gap-2 mb-2">
         <Icon size={14} className="text-sky-600 shrink-0" />
         <p className="text-xs font-bold text-sky-600 uppercase tracking-widest">{hint.label}</p>
