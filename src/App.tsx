@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Map, Mountain } from 'lucide-react'
 import resortsData from './data/resorts.json'
 import type { Resort } from './types'
 import { useDailyPuzzle } from './hooks/useDailyPuzzle'
@@ -15,12 +16,17 @@ import { HowToPlayModal } from './components/modals/HowToPlayModal'
 import { WinModal } from './components/modals/WinModal'
 import { LossModal } from './components/modals/LossModal'
 import { StatsModal } from './components/modals/StatsModal'
+import { RunnerApp } from './runner/RunnerApp'
 
 const resorts = resortsData as Resort[]
 
 type ModalType = 'help' | 'stats' | 'result' | null
+type AppMode = 'skirdle' | 'runner'
 
 export default function App() {
+  const [appMode, setAppMode] = useState<AppMode>('runner')
+  const [runnerUnit, setRunnerUnit] = useState<'km' | 'mi'>('km')
+
   const { resort: target, puzzleNumber, date } = useDailyPuzzle(resorts)
   const { state, dispatch } = useGameState(target, puzzleNumber, date)
   const [unit, setUnit] = useState<'km' | 'mi'>('km')
@@ -46,65 +52,95 @@ export default function App() {
   }
 
   return (
-    <div className="relative min-h-screen font-body overflow-x-hidden">
-      <Snow />
-      <MountainSilhouette />
-
-      <div className="relative z-10 max-w-lg mx-auto px-4 pb-32">
-        <Header
-          puzzleNumber={puzzleNumber}
-          unit={unit}
-          onToggleUnit={() => setUnit((u) => (u === 'km' ? 'mi' : 'km'))}
-          onOpenHelp={() => setModal('help')}
-          onOpenStats={() => setModal('stats')}
+    <>
+      {appMode === 'runner' && (
+        <RunnerApp
+          unit={runnerUnit}
+          onToggleUnit={() => setRunnerUnit((u) => (u === 'km' ? 'mi' : 'km'))}
         />
+      )}
 
-        <main className="mt-6 space-y-4">
-          <ProgressBar revealed={state.hintsRevealed} total={5} />
-          <HintBoard hints={hints} guessCount={state.guesses.length} />
+      {appMode === 'skirdle' && (
+        <div className="relative min-h-screen font-body overflow-x-hidden">
+          <Snow />
+          <MountainSilhouette />
 
-          {!gameOver && (
-            <GuessInput
-              allResorts={resorts}
-              alreadyGuessedIds={guessedIds}
-              onGuess={handleGuess}
-              disabled={gameOver}
+          <div className="relative z-10 max-w-lg mx-auto px-4 pb-32">
+            <Header
+              puzzleNumber={puzzleNumber}
+              unit={unit}
+              onToggleUnit={() => setUnit((u) => (u === 'km' ? 'mi' : 'km'))}
+              onOpenHelp={() => setModal('help')}
+              onOpenStats={() => setModal('stats')}
             />
-          )}
 
-          {gameOver && (
-            <div className="text-center">
+            <main className="mt-6 space-y-4">
+              <ProgressBar revealed={state.hintsRevealed} total={5} />
+              <HintBoard hints={hints} guessCount={state.guesses.length} />
+
+              {!gameOver && (
+                <GuessInput
+                  allResorts={resorts}
+                  alreadyGuessedIds={guessedIds}
+                  onGuess={handleGuess}
+                  disabled={gameOver}
+                />
+              )}
+
+              {gameOver && (
+                <div className="text-center">
+                  <button
+                    onClick={() => setModal('result')}
+                    className="text-blue-300 underline text-sm hover:text-blue-200"
+                  >
+                    View result
+                  </button>
+                </div>
+              )}
+
+              <GuessList guesses={state.guesses} unit={unit} />
+            </main>
+
+            <footer className="mt-10 text-center">
               <button
-                onClick={() => setModal('result')}
-                className="text-blue-300 underline text-sm hover:text-blue-200"
+                onClick={handleReset}
+                className="text-xs text-white/15 hover:text-white/40 transition-colors"
               >
-                View result
+                ↺ Reset today's puzzle
               </button>
-            </div>
+            </footer>
+          </div>
+
+          {modal === 'help' && <HowToPlayModal onClose={() => setModal(null)} />}
+          {modal === 'stats' && <StatsModal onClose={() => setModal(null)} />}
+          {modal === 'result' && state.status === 'won' && (
+            <WinModal state={state} target={target} onClose={() => setModal(null)} />
           )}
-
-          <GuessList guesses={state.guesses} unit={unit} />
-        </main>
-
-        <footer className="mt-10 text-center">
-          <button
-            onClick={handleReset}
-            className="text-xs text-white/15 hover:text-white/40 transition-colors"
-          >
-            ↺ Reset today's puzzle
-          </button>
-        </footer>
-      </div>
-
-      {modal === 'help' && <HowToPlayModal onClose={() => setModal(null)} />}
-      {modal === 'stats' && <StatsModal onClose={() => setModal(null)} />}
-      {modal === 'result' && state.status === 'won' && (
-        <WinModal state={state} target={target} onClose={() => setModal(null)} />
+          {modal === 'result' && state.status === 'lost' && (
+            <LossModal state={state} target={target} onClose={() => setModal(null)} />
+          )}
+        </div>
       )}
-      {modal === 'result' && state.status === 'lost' && (
-        <LossModal state={state} target={target} onClose={() => setModal(null)} />
-      )}
-    </div>
+
+      {/* App switcher — always visible */}
+      <button
+        onClick={() => setAppMode((m) => (m === 'runner' ? 'skirdle' : 'runner'))}
+        title={appMode === 'runner' ? 'Switch to Skirdle' : 'Switch to RouteRunner'}
+        className="fixed bottom-5 right-5 z-50 flex items-center gap-2 px-4 py-2 bg-slate-800/90 backdrop-blur border border-white/15 rounded-full text-sm text-slate-300 hover:text-white hover:border-white/30 shadow-lg transition-all"
+      >
+        {appMode === 'runner' ? (
+          <>
+            <Mountain className="w-4 h-4" />
+            Skirdle
+          </>
+        ) : (
+          <>
+            <Map className="w-4 h-4" />
+            RouteRunner
+          </>
+        )}
+      </button>
+    </>
   )
 }
 
